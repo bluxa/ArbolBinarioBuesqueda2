@@ -22,21 +22,30 @@ namespace Laboratorio_Arboles_Binarios_de_Busqueda
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Tareas miTareaAux;
-            miTareaAux = new Tareas();
-            miTareaAux.IdTarea = int.Parse(textBox1.Text);
-            miTareaAux.NombreTarea = textBox2.Text;
-            miTareaAux.Duracion = textBox3.Text;
-            miTareaAux.Porcentaje = textBox4.Text + "%";
-            miTareaAux.NombreProgramador = textBox5.Text;
+            try
+            {
+                Tareas miTareaAux;
+                miTareaAux = new Tareas();
+                miTareaAux.IdTarea = int.Parse(textBox1.Text);
+                miTareaAux.NombreTarea = textBox2.Text;
+                miTareaAux.Duracion = textBox3.Text;
+                miTareaAux.Porcentaje = textBox4.Text + "%";
+                miTareaAux.NombreProgramador = textBox5.Text;
 
-            miArbol.insertar(miTareaAux);
+                miArbol.insertar(miTareaAux);
 
-            textBox1.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
-            textBox4.Clear();
-            textBox5.Clear();
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Verifique si sus datos son correctos");
+                //throw;
+            }
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -53,28 +62,37 @@ namespace Laboratorio_Arboles_Binarios_de_Busqueda
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (textBox7.Text =="")
+            {
+                MessageBox.Show("Ingresar nombre de tarea");
+            }
+            else
+            {
+                Tareas miTareaAux2;
+                miTareaAux2 = new Tareas();
+                miTareaAux2.NombreTarea = (textBox7.Text);
 
-            Tareas miTareaAux2;
-            miTareaAux2 = new Tareas();
-            miTareaAux2.NombreTarea = (textBox7.Text);
-
-            //MessageBox.Show(miArbol.buscarIterativo(miTareaAux2).visitar() + "");
-            MessageBox.Show(miArbol.buscar2(miTareaAux2).visitar() + "");
+                //MessageBox.Show(miArbol.buscarIterativo(miTareaAux2).visitar() + "");
+                MessageBox.Show(miArbol.buscar2(miTareaAux2).visitar() + "");
 
 
+
+                DialogResult result = MessageBox.Show("DESEA ELIMINAR EL DATO BUSCADO", "SALIR", MessageBoxButtons.YesNoCancel);
+
+                if (result == DialogResult.Yes)
+                {
+                    miArbol.eliminar2(miTareaAux2);
+                }
+                else if (result == DialogResult.No)
+                {
+                    textBox7.Clear();
+                }
+                else if (result == DialogResult.Cancel)
+                {
+                    textBox7.Clear();
+                }
+            }
             
-            DialogResult result = MessageBox.Show("DESEA ELIMINAR EL DATO BUSCADO", "SALIR", MessageBoxButtons.YesNoCancel);
-
-            if (result == DialogResult.Yes)
-            {
-                miArbol.eliminar2(miTareaAux2);
-            }
-            else if (result == DialogResult.No)
-            {
-            }
-            else if (result == DialogResult.Cancel)
-            {
-            }
 
 
             
