@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\bin\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.exe.config
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\bin\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.exe
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\bin\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.pdb
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio_Arboles_Binarios_de_Busqueda.Form1.resources
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio_Arboles_Binarios_de_Busqueda.Properties.Resources.resources
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.csproj.GenerateResource.Cache
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.exe
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.pdb
+C:\Users\Admin\source\repos\Laboratorio-Arboles-Binarios-de-Busqueda\Laboratorio-Arboles-Binarios-de-Busqueda\obj\Debug\Laboratorio-Arboles-Binarios-de-Busqueda.csproj.CoreCompileInputs.cache
